@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+#gnav{
+  padding:15px 0;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}
+
+#gnav ul{
+  display: flex;
+  justify-content: center;
+  padding:0 0;
+}
+
+#gnav a{
+  color: rgb(50, 205, 50);
+}
+
+nav ul{
+  list-style: none;
+}
+
+#gnav li{
+  letter-spacing: .05em;
+  font-size: 15px;
+  padding:2px 15px;
+}
+
+#header{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:400px;
+  background-color: rgb(50, 205, 50);
+}
+
+#header .inner{
+  margin-top: 80px;
+
+}
+
+#header .logo-title{
+  font-size: 60px;
+  letter-spacing: .12em;
+}
+
+#header .logo-desc{
+  text-align: center;
+  font-size: 12px;
+}
+
+.section .inner{
+   margin: 0 auto;
+}
+
+.section-title-area{
+  text-align: center;
+}
+
+#about .section-body{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#about .section-image img{
+  margin: 0 55px;
+  border-radius:  50%;
+  width: 200px;
+
+}
+
+.img{
+  display: block;
+  height :auto;
+  border:none;
+}
+
+.card{
+  float:left;
+  width:33%;
+  text-align: center;
+
+}
+.skill-icon{
+  text-align: center;
+}
+
+#skill .card-wrapper{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin:0 auto:
+}
+
+.section-title-area{
+  margin-bottom:  38px;
+  text-align: center;
+}
+
+#contact .contact-list ul{
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:200px;
+  margin: 0 auto;
+
+}
+
+ul li{
+  list-style: none;
+}
+
+.contact-other{
+  text-align: center;
+}
+
+#skill{
+  background-image: url(blur-close-up-code-computer-546819.jpg);
+  color: white;
+}
+
+
+
+.section-title{
+  font-family:"Open sans", sans-sans-serif;
+  font-size:40px;
+}
+
+#footer .copyright{
+  font-size:10px;
+  text-align: center;
+  color:rgb(50, 205, 50);
+  background-color: black;
+  height:15px;
+  padding:20px 0;
+}
+
+#contact{
+  background-color: rgb(50, 205, 50);
+}
+
+.worktitle{
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(156, 166, 160, 0.48);
+  border-bottom-width: thin;
+}
+
+.price {
+  color:red;
+}
