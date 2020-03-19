@@ -33,7 +33,7 @@ nav ul{
 }
 
 #header{
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height:400px;
@@ -42,7 +42,6 @@ nav ul{
 
 #header .inner{
   margin-top: 80px;
-
 }
 
 #header .logo-title{
@@ -184,3 +183,4 @@ ul li{
 .tr-image{
   margin-top: 25px;
   margin-left: 10px;
+}
