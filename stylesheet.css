@@ -159,7 +159,9 @@ ul li{
 
 .lp{
   display: flex;
-  padding-left: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .lp-paper{
@@ -172,7 +174,8 @@ ul li{
 
 .tr{
   display: flex;
-  padding-left: 300px;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
   margin-top: 30px;
 }
 
