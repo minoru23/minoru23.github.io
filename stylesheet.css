@@ -19,7 +19,7 @@ body {
 }
 
 #gnav a{
-  color: rgb(50, 205, 50);
+  color: #00CCFF;
 }
 
 nav ul{
@@ -36,8 +36,9 @@ nav ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  height:400px;
-  background-color: rgb(50, 205, 50);
+  height:500px;
+  background-image: url(14.46.52.jpg);
+  background-size: cover;
 }
 
 #header .inner{
@@ -46,12 +47,13 @@ nav ul{
 
 #header .logo-title{
   font-size: 60px;
-  letter-spacing: .12em;
+  letter-spacing: .10em;
 }
 
 #header .logo-desc{
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
+  margin-bottom: 30px;
 }
 
 .section .inner{
@@ -73,6 +75,10 @@ nav ul{
   border-radius:  50%;
   width: 200px;
 
+}
+
+#about .section-text{
+  margin-top: 30px;
 }
 
 .img{
@@ -105,9 +111,8 @@ nav ul{
 
 #contact .contact-list ul{
   display: flex;
-  align-items: flex-end;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:  space-between;
   width:200px;
   margin: 0 auto;
 
@@ -136,14 +141,18 @@ ul li{
 #footer .copyright{
   font-size:10px;
   text-align: center;
-  color:rgb(50, 205, 50);
+  color:#00CCFF;
   background-color: black;
   height:15px;
   padding:20px 0;
 }
 
 #contact{
-  background-color: rgb(50, 205, 50);
+  background-color: #00CCFF;
+}
+
+#contact .contact-list{
+  padding-bottom: 20px;
 }
 
 .worktitle{
